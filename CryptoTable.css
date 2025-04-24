@@ -1,0 +1,44 @@
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #334155;
+  }
+  
+  th {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-weight: bold;
+  }
+  
+  td {
+    color: #e2e8f0;
+  }
+  
+  .trend {
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  
+  img {
+    filter: brightness(0.9);
+  }
+ 
